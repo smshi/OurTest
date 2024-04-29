@@ -51,7 +51,7 @@ close $OurTest::log_file_id
 ```
 The content is already in the example with file name main_run_all_cases.tcl, you can use any legal name you like. 
 ### Just run one test.
-If you want just run one test file, execute the file drectly, it will run all the setup in the parent directories and then run the script itself, at last it will run all the teardown.
+If you want just run one test file, execute the file drectly by tclsh, it will run all the setup in the parent directories and current directory, and then run the script itself, at last it will run all the teardown in current directory and all the parent directories.
 ## How to write test file.
 ### Create a file with name ending .test.tcl or _test.tcl
 If you want to use other names that not ending .test.tcl or _test.tcl, you should call run_test with pattern parameter of yourself. For example, if you name it as mytestcase-test.tcl, you should call run_test like this:
