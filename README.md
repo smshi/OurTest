@@ -19,8 +19,20 @@ ExampleTestSuite-----------------------------------------------top directory
                 SuiteTeardown.tcl
 ```
 This is the directory structure of the exmaple already in the repo.
-When the suite is running, the SuiteSetup.tcl in the all the directories will be executed first, then run the script end with .test.tcl or .test.tcl one by one, then execute the deepest SuiteTeardown.tcl.
-If the any  SuiteSetup.tcl happens execetion, all the test in the sub dir or current dir will be marked exception, but parent level dir still could run correctly.
+When the suite is running, the running order as following:
+```
+ExampleTestSuite/SuiteSetup.tcl
+ExampleTestSuite/DhcpFunction/SuiteSetup.tcl
+ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
+ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
+ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
+ExampleTestSuite/DhcpFunction/SuiteTeardown.tcl
+ExampleTestSuite/PppoeFuntion/SuiteSetup.tcl
+ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
+ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
+ExampleTestSuite/PppoeFuntion/SuiteTeardown.tcl
+ExampleTestSuite/SuiteTeardown.tcl
+```
 ## How to write SuiteTeardown.tcl
 The content of SuiteTeardown.tcl is be executed line by line, all lines will be executed even exception happens to ensure the clearance.
 When write the SuiteTeardown.tcl, you must guarantee **keep one sentence in one line**. If need cross line, you must add \ to the line end.
