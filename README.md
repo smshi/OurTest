@@ -1,5 +1,5 @@
 # OurTest
-A tcl test framework.
+A tcl test framework. ExampleTestSuite in the code is a representative example of common test suite.
 # How to use it?
 ## Create directory structure as following:
 ```
