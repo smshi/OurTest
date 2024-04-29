@@ -31,20 +31,24 @@ namespace eval OurTest {
 
 	proc our_puts { data } {
 		
-		variable log_file_id
-		variable sep1
-		variable sep2
-		
-		if {$data ne "" && $data ne $sep1 && $data ne $sep2} {
-			set data "OurTest [clock format [clock seconds]]: $data"
+		if {[info exists ::___ourtest_is_run_by_runner]} {
+			runner_our_puts $data
+		} else {
+        		variable log_file_id
+        		variable sep1
+        		variable sep2
+        		
+        		if {$data ne "" && $data ne $sep1 && $data ne $sep2} {
+        			set data "OurTest [clock format [clock seconds]]: $data"
+        		}
+        		
+        		if {$log_file_id ne ""} {
+        			puts $log_file_id $data
+        			flush $log_file_id
+        		}
+        		
+        		puts $data
 		}
-		
-		if {$log_file_id ne ""} {
-			puts $log_file_id $data
-			flush $log_file_id
-		}
-		
-		puts $data
 	}
 	
 	proc get_file_dir {} {
@@ -191,6 +195,7 @@ namespace eval OurTest {
 		
 		interp create runner
 		interp alias runner append_suite_result {} set current_resuts
+		interp alias runner runner_our_puts {} ::OurTest::our_puts
 		runner eval "set ::___ourtest_is_run_by_runner 1"
 		
 		set script_num [llength $runer_script_list]
