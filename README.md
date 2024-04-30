@@ -43,11 +43,12 @@ If you already has the exmaple test suite, you can create a tcl file in the top 
 package require OurTest-----------------------------------------------import the package
 namespace import OurTest::*
 
-set OurTest::log_file_id [open log.txt w]-----------------------------the log will be recorded in the corresponding file.
+config_log_file_id [open log.txt w]-----------------------------------Config the log file
+config_report_file_id [open report.csv w]-----------------------------Config the report csv file
 
-run_test--------------------------------------------------------------It will get all the file in current dir and its sub dir to run
+run_test
 
-close $OurTest::log_file_id
+make_clear
 ```
 The content is already in the example with file name main_run_all_cases.tcl, you can use any legal name you like. 
 ### Just run one test.
