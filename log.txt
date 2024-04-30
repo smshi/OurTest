@@ -1,262 +1,262 @@
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: Following scripts will be executed.
+OurTest Tue Apr 30 16:48:10 CST 2024: Following scripts will be executed.
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteSetup.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteSetup.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteTeardown.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteSetup.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteTeardown.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteTeardown.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteSetup.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteSetup.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteTeardown.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteSetup.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteTeardown.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteTeardown.tcl
 ====================================================================================================
 
 
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl
 ====================================================================================================
 
 
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl
 ====================================================================================================
 
 
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl
 ====================================================================================================
 
 
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl
 ====================================================================================================
 
 
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Begin to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: Test results for D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
+OurTest Tue Apr 30 16:48:10 CST 2024: end to run test suite in file D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl
 ====================================================================================================
 
 
 
-OurTest Mon Apr 29 17:07:53 CST 2024: Test results:
+OurTest Tue Apr 30 16:48:10 CST 2024: Test results:
 ====================================================================================================
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteSetup.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteSetup.tcl:
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteSetup.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteSetup.tcl:
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl:
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_1.test.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
-pass Step_2: checking 1 ne 2 when Marking test result step 2;
-pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
-pass Step_4: checking results string match *stri* when Marking test result step 4;}
-----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl:
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
-pass Step_2: checking 1 ne 2 when Marking test result step 2;
-pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
-pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
-pass Step_2: checking 1 ne 2 when Marking test result step 2;
-pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
-pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl:
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_2.test.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
-pass Step_2: checking 1 ne 2 when Marking test result step 2;
-pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
-pass Step_4: checking results string match *stri* when Marking test result step 4;}
-----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteTeardown.tcl:
-----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteSetup.tcl:
-----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl:
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
-pass Step_2: checking 1 ne 2 when Marking test result step 2;
-pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
-pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
-pass Step_2: checking 1 ne 2 when Marking test result step 2;
-pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
-pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl:
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/dhcp_test_suite_3.test.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
-OurTest Mon Apr 29 17:07:53 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of dhcp_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
 pass Step_2: checking 1 ne 2 when Marking test result step 2;
 pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
 pass Step_4: checking results string match *stri* when Marking test result step 4;}
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteTeardown.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/DhcpFunction/SuiteTeardown.tcl:
 ----------------------------------------------------------------------------------------------------
-OurTest Mon Apr 29 17:07:53 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteTeardown.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteSetup.tcl:
+----------------------------------------------------------------------------------------------------
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_1.test.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_1.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+pass Step_2: checking 1 ne 2 when Marking test result step 2;
+pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
+pass Step_4: checking results string match *stri* when Marking test result step 4;}
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+pass Step_2: checking 1 ne 2 when Marking test result step 2;
+pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
+pass Step_4: checking results string match *stri* when Marking test result step 4;}
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+pass Step_2: checking 1 ne 2 when Marking test result step 2;
+pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
+pass Step_4: checking results string match *stri* when Marking test result step 4;}
+----------------------------------------------------------------------------------------------------
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/pppoe_test_suite_2.test.tcl:
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_1 {test_case_1 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+pass Step_2: checking 1 ne 2 when Marking test result step 2;
+pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
+pass Step_4: checking results string match *stri* when Marking test result step 4;}
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_2 {test_case_2 of pppoe_test_suite_2.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+pass Step_2: checking 1 ne 2 when Marking test result step 2;
+pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
+pass Step_4: checking results string match *stri* when Marking test result step 4;}
+OurTest Tue Apr 30 16:48:10 CST 2024: test_case_3 {test_case_3 of pppoe_test_suite_3.} pass {pass Step_1: checking 1 eq 1 when Marking test result step 1;
+pass Step_2: checking 1 ne 2 when Marking test result step 2;
+pass Step_3: checking results string rmatch .*stri.* when Marking test result step 3;
+pass Step_4: checking results string match *stri* when Marking test result step 4;}
+----------------------------------------------------------------------------------------------------
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/PppoeFuntion/SuiteTeardown.tcl:
+----------------------------------------------------------------------------------------------------
+OurTest Tue Apr 30 16:48:10 CST 2024: D:/work/_TclProject/OurTest/ExampleTestSuite/SuiteTeardown.tcl:
 ----------------------------------------------------------------------------------------------------

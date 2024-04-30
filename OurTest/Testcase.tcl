@@ -1,3 +1,5 @@
+package require csv
+
 set ___chars_of_line 100
 
 namespace eval OurTest {
@@ -11,11 +13,37 @@ namespace eval OurTest {
 	variable test_results ""
 	variable setup_num 0
 	variable log_file_id ""
+	variable report_file_id ""
 	variable sep1 [string repeat - $::___chars_of_line]
 	variable sep2 [string repeat = $::___chars_of_line]
 	
 	set ___mRunCondition(always) {expr 1}
 	set ___mRunCondition(norun) {expr 0}
+	
+	namespace export config_log_file_id
+	proc config_log_file_id { fileid } {
+		variable log_file_id
+		set log_file_id $fileid
+	}
+	
+	namespace export config_report_file_id
+	proc config_report_file_id { fileid } {
+		variable report_file_id
+		set report_file_id $fileid
+	}
+	
+	namespace export make_clear
+	proc make_clear {} {
+		variable log_file_id
+		variable report_file_id
+		
+		if {$log_file_id ne ""} {
+			catch {close $log_file_id}
+		}
+		if {$report_file_id ne ""} {
+			catch {close $report_file_id}
+		}
+	}
 	
 	namespace eval ___test {
 		
@@ -28,7 +56,22 @@ namespace eval OurTest {
 		variable step 1
 		
 	}
-
+	
+	proc log_report { data } {
+		
+		variable report_file_id
+		
+		set csv_data [csv::joinlist $data]
+		
+		if {[info exists ::___ourtest_is_run_by_runner]} {
+			puts "I am in salve interpreter."
+		} else {
+			puts $report_file_id $csv_data
+		}
+		
+	}
+	
+	namespace export our_puts
 	proc our_puts { data } {
 		
 		if {[info exists ::___ourtest_is_run_by_runner]} {
@@ -183,6 +226,16 @@ namespace eval OurTest {
 		return 0
 	}
 	
+	proc process_current_script_test_result {} {
+		uplevel {
+			set data_to_csv [concat $cur_script  $current_resuts ""]
+			log_report $data_to_csv
+			lappend test_results $cur_script
+			lappend test_results $current_resuts
+			set current_resuts ""
+		}
+	}
+	
 	proc run_suite_script {} {
 		
 		variable runner_next_script
@@ -208,9 +261,7 @@ namespace eval OurTest {
 					set runner_next_script ""
 				} else {
 					set current_resuts {{Dir setup exception.}}
-					lappend test_results $cur_script
-					lappend test_results $current_resuts
-					set current_resuts ""
+					process_current_script_test_result
 					continue
 				}
 			}
@@ -277,9 +328,7 @@ namespace eval OurTest {
 				our_puts ""
 			}
 			
-			lappend test_results $cur_script
-			lappend test_results $current_resuts
-			set current_resuts ""
+			process_current_script_test_result
 		}
 		
 		interp delete runner
