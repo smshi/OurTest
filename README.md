@@ -60,6 +60,7 @@ If you want to use other names that not ending .test.tcl or _test.tcl, you shoul
 run_test . *-test.tcl
 `
 ### Create test element in the file
+Every test file must contain SuiteSetup,testcase and SuiteTeardown sectors. following is an example.
 ```
 package require OurTest
 namespace import OurTest::*
