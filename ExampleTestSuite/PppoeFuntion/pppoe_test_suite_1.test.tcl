@@ -17,7 +17,9 @@ SuiteSetup {
 testcase test_case_1 always {test_case_1 of pppoe_test_suite_1.} {
 	puts "setup of test_case_1 in pppoe_test_suite_1"
 } {
-
+	
+	checking "Marking test result step 1 for contain"
+	expect 112 contain 1
 
 	checking "Marking test result step 1"
 	expect 1 eq 1

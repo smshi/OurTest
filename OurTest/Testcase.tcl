@@ -441,7 +441,7 @@ namespace eval OurTest {
 		set ___test::description $desc
 	}
 	
-	proc expect {cnt {opt expression} {ptn 1}} {
+	proc expect {cnt {opt contain} {ptn 1}} {
 		
 		set ___test::content $cnt
 		set ___test::pattern $ptn
@@ -479,6 +479,14 @@ namespace eval OurTest {
 			}
 			match* {
 				if {![string match -nocase $ptn $cnt]} {
+					set ___test::result "failed $msg"
+					error $___test::result "failed" failed_error
+				} 
+				
+				set ___test::result pass
+			}
+			contain* {
+				if {![string match -nocase *$ptn* $cnt]} {
 					set ___test::result "failed $msg"
 					error $___test::result "failed" failed_error
 				} 
