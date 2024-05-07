@@ -21,16 +21,16 @@ testcase test_case_1 always {test_case_1 of pppoe_test_suite_1.} {
 	checking "Marking test result step 1 for contain"
 	expect 112 contain 1
 
-	checking "Marking test result step 1"
+	checking "Marking test result step 2"
 	expect 1 eq 1
 	
-	checking "Marking test result step 2"
+	checking "Marking test result step 3"
 	expect 1 ne 2
 	
-	checking "Marking test result step 3"
+	checking "Marking test result step 4"
 	expect "results string" rmatch .*stri.*
 	
-	checking "Marking test result step 4"
+	checking "Marking test result step 5"
 	expect "results string" match *stri*
 	
 } {
